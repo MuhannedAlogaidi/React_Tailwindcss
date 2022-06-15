@@ -8,7 +8,9 @@
 		"build": "webpack .",
 		"lint": "eslint . --fix --max-warnings=0",
 		"format": "prettier . --write",
-		"prepare": "husky install"
+		"prepare": "husky install",
+		"test": "jest",
+		"coverage": "jest --coverage"
 	},
 	"repository": {
 		"type": "git",
